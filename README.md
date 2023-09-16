@@ -45,11 +45,13 @@ uvicorn main:app --reload
 3. Once the server has started, you should see output similar to the following:
 
 ```
-INFO: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 ```
-Open your web browser and navigate to http://127.0.0.1:8000 to access the API.
+Open your web browser and navigate to http://0.0.0.0:8000 to access the API.
 
-4. Swager documentation could be found here: http://127.0.0.1:8000/docs
+4. Swager documentation could be found here: http://0.0.0.0:8000/docs
+...
+```See The End of main.py```
 
 ## Application features
 
