@@ -207,8 +207,10 @@ if __name__ == '__main__':
 # http://0.0.0.0:8000/docs
 # http://0.0.0.0:8000/static/index.html
 
+# ok:
 # http://0.0.0.0:8000/static/chat.html
 
+# something wrong:
 # http://0.0.0.0:8000/
 # http://0.0.0.0:8000/api/register
 # http://0.0.0.0:8000/chat/
